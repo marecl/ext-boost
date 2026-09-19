@@ -5,5 +5,6 @@ target_include_directories(boost SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/li
 target_include_directories(boost SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/libs/utility/include/)
 target_include_directories(boost SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/libs/tuple/include/)
 target_include_directories(boost SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/libs/iterator/include/)
+target_include_directories(boost SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/libs/dynamic_bitset/include/)
 target_include_directories(boost SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
 add_library(Boost::headers ALIAS boost)
